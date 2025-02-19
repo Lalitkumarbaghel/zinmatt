@@ -1,0 +1,8 @@
+.marq{
+    padding: 8px 0;
+}
+.marq span{
+    display: inline-block;
+    color: #fff;
+    margin-right: 50px;
+}

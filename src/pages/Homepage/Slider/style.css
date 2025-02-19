@@ -1,0 +1,27 @@
+.sliderbg{
+    background: #f3f8ff;
+}
+.slider_cntnt{
+    margin-top: 65px;
+}
+.slider_cntnt .heading{
+    font-size: 49px;
+    font-weight: 700;
+    color: #fc7108;
+}
+.slider_cntnt .info{
+    padding-top: 20px;
+}
+.applyBtn{
+    background: #fc7108!important;
+    font-size: 19px;
+    border: 1px solid #fc7108!important;
+    display: inline-block;
+    margin-top: 35px;
+    padding: 7px 20px;
+}
+.applyBtn:hover{
+    background: transparent!important;
+    color: #fc7108;
+    text-decoration: underline;
+}

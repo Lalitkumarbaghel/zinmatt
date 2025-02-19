@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  font-family: "Barlow Condensed", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #333;
+  font-size: 19px;
+}
+h1, h2, h3, h4, h5, h6, p, ul, li, a, pre, label{
+  color: #333;
+  margin-bottom: 0;
+}
+.orangeclr{
+  color: #fc7108;
+}
+.heading-title{
+  font-size: 45px;
+  font-weight: 700;
+}
+.title-grey{
+  color: #7a7a7a;
+}
