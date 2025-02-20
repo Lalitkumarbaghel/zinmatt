@@ -1,0 +1,16 @@
+.blogHead {
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 0;
+}
+.blogTime {
+    font-size: 14px;
+    font-weight: 500;
+    color: #a9a9a9;
+    padding: 10px 0;
+}
+.card-text.headDes{
+    font-size: 17px;
+    line-height: 1.3;
+    color: #555;
+}

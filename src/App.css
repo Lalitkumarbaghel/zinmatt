@@ -103,3 +103,10 @@ h1, h2, h3, h4, h5, h6, p, ul, li, a, pre, label{
 .text-deco{
   text-decoration: underline;
 }
+.Blog-Read{
+  display: inline-block;
+  color: #24b101;
+  font-size: 17px;
+  margin-top: 15px;
+
+}

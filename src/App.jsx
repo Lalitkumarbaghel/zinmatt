@@ -5,6 +5,7 @@ import './App.css'
 import Header from './componets/header/Header'
 import Homepage from './pages/Homepage'
 import Courses from './pages/Courses'
+import Blog from './pages/Blog/Blog'
 import Footer from './componets/footer/footer'
 function App() {
   //const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route exact={true} path='/' element={<Homepage/>} />
           <Route exact={true} path='/courses' element={<Courses/>} />
+          <Route exact={true} path='/blog' element={<Blog/>} />
         </Routes>
       <Footer/>
       </div>

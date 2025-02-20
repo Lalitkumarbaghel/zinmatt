@@ -47,7 +47,7 @@ function Header(){
                 <li><a className='subItem' href='#'>Gallery</a></li>
                 <li><a className='subItem' href='#'>Contact us</a></li>
                 <li><a className='subItem' href='#'>Certificate verification</a></li>
-                <li><a className='subItem' href='#'>Blog</a></li>
+                <li><Link className='subItem' to='/blog'>Blog</Link></li>
             </ul>
         </div>
       </li>
