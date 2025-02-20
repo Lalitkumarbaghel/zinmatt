@@ -19,7 +19,7 @@ function Header(){
           <Link className="nav-link" to='/'> Home</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Course</a>
+          <Link className="nav-link" to="/courses">Course</Link>
         </li>
         <li className="nav-item">
         <a className="nav-link dropdown-toggle" href="#" >

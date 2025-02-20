@@ -1,0 +1,37 @@
+.banner_cnnt span.orangeclr{
+    position: relative;
+}
+.banner_cnnt span.btm_line::after{
+    content: '';
+    position: absolute;
+    width: 180px;
+    height: 4px;
+    background: #fc7108;
+    bottom: -6px;
+    right: 3px;
+}
+.btn-group2 .whitebtn{
+    margin-left: 15px;
+}
+.studentList {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.studentList p{
+    margin-left: 15px;
+}
+.arrow_img {
+    position: relative;
+}
+.arrow_img img{
+    position: absolute;
+    width: 287px;
+    top: 50px;
+    left: -92px;
+    transform: rotate(32deg);
+    -webkit-transform: rotate(32deg);
+    -moz-transform: rotate(32deg);
+    -o-transform: rotate(32deg);
+}

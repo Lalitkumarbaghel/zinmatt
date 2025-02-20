@@ -1,0 +1,10 @@
+.bordertxt{
+    border: 1px solid #333;
+    padding: 6px 15px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.starcntnt i{
+    color: #fdc807;
+}

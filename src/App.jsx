@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 import Header from './componets/header/Header'
 import Homepage from './pages/Homepage'
+import Courses from './pages/Courses'
 import Footer from './componets/footer/footer'
 function App() {
   //const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
       <Header/>
         <Routes>
           <Route exact={true} path='/' element={<Homepage/>} />
+          <Route exact={true} path='/courses' element={<Courses/>} />
         </Routes>
       <Footer/>
       </div>

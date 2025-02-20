@@ -1,0 +1,19 @@
+.choose_card {
+    border: 1px solid #f3f8ff;
+    padding: 25px;
+    border-radius: 10px;
+    background: #f3f8ff;
+    min-height: 290px;
+}
+.choose_card .img{
+    width: 120px;
+}
+.choose_card .head2{
+    font-size: 25px;
+    padding-top: 25px;
+}
+.choose_card .txt2{
+    color: #777;
+    line-height: 1.2;
+    padding: 10px 0;
+} 
