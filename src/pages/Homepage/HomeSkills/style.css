@@ -1,0 +1,11 @@
+.skills_card .card{
+    background: #f3f8ff;
+    min-height: 285px;
+}
+.skills_card .icn {
+    padding: 15px 10px 0px 10px;
+}
+.skills_card .icn i{
+    font-size: 50px;
+    color: #fc7108;
+}

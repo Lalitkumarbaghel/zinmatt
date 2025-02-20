@@ -1,0 +1,30 @@
+.darkbg{
+    background: #333;
+    padding: 40px 0;
+    position: relative;
+    z-index: 1;
+}
+.darkbg::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../../../assets/images/bgPattrn.png');
+    background-position: left;
+    background-repeat: round;
+    background-size: cover;
+    z-index: -1;
+    background-attachment: fixed;
+}
+.zitmattNumber .orangeclr{
+    font-weight: 600;
+    font-size: 50px;
+}
+.zitmattNumber{
+    border-right: 2px solid #fc7108;
+}
+.darkbg .row .col-md-3:nth-last-child(1) .zitmattNumber{
+    border-right: 0;
+}

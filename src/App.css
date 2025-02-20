@@ -21,3 +21,11 @@ h1, h2, h3, h4, h5, h6, p, ul, li, a, pre, label{
 .title-grey{
   color: #7a7a7a;
 }
+.white-clr{
+  color: #fff;
+}
+.fs-50{
+  font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
