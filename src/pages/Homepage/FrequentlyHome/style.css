@@ -1,0 +1,12 @@
+.accordion .accordion-item .accordion-header .accordion-button{
+    font-size: 20px !important;
+    font-weight: 500;
+    /* color: #fc7108; */
+}
+.accordion .accordion-item .accordion-header .accordion-button::after{
+    color: #fc7108!important;
+}
+.accordion .accordion-item .accordion-header .accordion-button:not(.collapsed){
+    background-color:#fff4ec;
+    color: #fc7108!important;
+}

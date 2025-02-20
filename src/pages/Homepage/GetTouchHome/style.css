@@ -1,0 +1,26 @@
+.getborder{
+    border-top: 1px solid #e3e3e3;
+}
+.getTouchform .form-group{
+    padding-top: 15px;
+}
+.getTouchform .form-group input, .getTouchform .form-group textarea{
+    font-size: 19px;
+}
+.getTouchform .form-group textarea{
+    height: 150px;
+}
+.getTouchform button{
+    margin-top: 25px;
+    font-size: 19px;
+    display: block;
+    width: 100%;
+}
+.callbtn .btn-success{
+    margin-left: 15px;
+    font-size: 19px;
+}
+.callbtn .btn-success i{
+    display: inline;
+    margin-right: 10px;
+}

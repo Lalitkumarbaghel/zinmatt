@@ -2,7 +2,7 @@ import './style.css'
 import CommunityImg from '../../../assets/images/communit.png'
 function HomeCommunity(){
     return(
-        <section className='container-fluid community_bg'>
+        <section className='container-fluid community_bg mt-5'>
             <div className='container'>
                 <div className='row justify-content-center align-items-center'>
                     <div className='col-md-6'>

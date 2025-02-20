@@ -1,0 +1,103 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css');
+.reviews_card{
+    position: relative;
+}
+.reviews_card .slick-arrow.slick-prev, .reviews_card .slick-arrow.slick-next{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background: #fc7108;
+    z-index: 1;
+    border-radius: 50%;
+    border: 1px solid #fc7108;
+}
+.reviews_card .slick-arrow.slick-prev::before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f104";
+    font-size: 28px;
+}
+.reviews_card .slick-arrow.slick-next::before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f105";
+    font-size: 28px;
+}
+.reviewsCntnt {
+    padding: 15px 25px;
+    background: #f3f8ff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(193 193 193 / 83%);
+    border: 1px solid #f3f8ff;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.reviewsCntnt:hover{
+    border: 1px dashed #fc7108;
+    box-shadow: 0px 0px 10px rgb(193 193 193 / 90%);
+}
+.reviewsCntnt .avtar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+.reviewsCntnt .avtar .img{
+    width: 40px;
+    height: 40px;
+    background: #098b00;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 10px;
+    color: #fff;
+    font-weight: 700;
+}
+.reviewsCntnt .avtar .info .review-head{
+    font-size: 20px;
+}
+.reviewsCntnt .avtar .info .review-title{
+    color: #999;
+    line-height: 1;
+    font-size: 16px;
+    padding-top: 2px;
+}
+.reviewsCntnt .cntnt{
+    padding-top: 20px 25px;
+}
+.reviewsCntnt .cntnt .review_star{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+.reviewsCntnt .cntnt .review_star .star_cntnt {
+    font-size: 12px;
+    margin-right: 10px;
+}
+.reviewsCntnt .cntnt .review_star  p{
+    line-height: 1;
+    color: #999;
+    line-height: 1;
+    font-size: 16px;
+}
+.reviews_card .slick-list{
+    padding: 15px 10px;
+}
+.reviews_card .slick-slide{
+    padding-right: 15px;
+}
+.readmore .more{
+    background: #fc7108;
+    border: 1px solid #fc7108;
+    font-size: 19px;
+    margin-top: 20px;
+    padding: 8px 25px;
+}
+.readmore .more:hover{
+    background: #fff;
+    color: #fc7108;
+}

@@ -1,0 +1,118 @@
+.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+}
+
+.price-table {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+    min-height: 585px;
+    position: relative;   
+}
+.price-table:hover{
+    box-shadow: 5px 5px 8px #ccc;
+    cursor: pointer;
+}
+.chooseSection{
+    position: relative;
+}
+.chooseSection::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(#f3f8ff, #ffffff);
+    z-index: -1;
+}
+.choose_head {
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    min-height: 200px;
+}
+.choose_head::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: url('../../../assets/images/choosebg.png');
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.choose_head .icn i{
+    font-size: 50px;
+    color: #ff0000;
+}
+.choose_head  .txt{
+    font-size: 27px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    margin-top: 15px;
+}
+.choose_head .icn.other i{
+    font-size: 50px;
+    color: #6ec1e4;
+}
+.choose_head .icn.other .img{
+    width: 60px;
+}
+.choose_list {
+    position: absolute;
+    z-index: 1111;
+    transform: translate(0, -60px);
+    -webkit-transform: translate(0, -60px);
+    -moz-transform: translate(0, -60px);
+    -o-transform: translate(0, -60px);
+    padding: 0 10px;
+    width: 100%;
+    left: 0;
+}
+.choose_list2{
+    background: #f8f6f4;
+    padding: 25px 45px;
+}
+.choose_list2 > ul {
+    list-style: none;
+    display: block;
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.choose_list2 > ul > li {
+    display: block;
+    padding: 3px 0;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+    color: #555;
+}
+.choose_list2 .info{
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.choose_list2 .prc{
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #000;
+    margin-top: 15px;
+}
+.choose_list2  ul li .icn{
+    display: inline;
+    margin-right: 10px;
+    color: #ff0000;
+}
+.choose_list2  ul li .icn.check{
+    color: #00bb00;
+}
