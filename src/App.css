@@ -109,5 +109,10 @@ h1, h2, h3, h4, h5, h6, p, ul, li, a, pre, label{
   color: #24b101;
   font-size: 17px;
   margin-top: 15px;
-
+}
+.white-clr{
+  color: #fff;
+}
+.black-text{
+  color: #000;
 }

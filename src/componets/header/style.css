@@ -28,7 +28,7 @@
     border-radius: 5px;
     display: none;
     width: 160px;
-    z-index: 1;
+    z-index: 999;
   }
   ul.navbar-nav.navbar_nav .nav-item:hover .submenu{
     display: block;

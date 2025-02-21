@@ -1,0 +1,126 @@
+.eventBanner{
+    padding: 80px 0;
+    position: relative;
+    z-index: 1;
+}
+.eventBanner::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../../assets/images/eventbanner.png');
+    z-index: -2;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.eventBanner::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgb(0 0 0 / 80%);
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.eventBanner2{
+    color: #fff;
+}
+.eventBanner2 .ev-head{
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+.eventBanner2 .ev-head6{
+    color: #c3c3c3;
+    font-size: 24px;
+    padding: 20px 0;
+}
+.eventBanner2 .ev-head2{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+}
+.eventBanner2 .ev-head2 .orangeclr{
+    font-size: 65px;
+}
+.eventBanner2 .ev-title{
+    color: #c3c3c3;
+}
+.eventBanner2 .ev-btn{
+    border: 2px solid #fff;
+    padding: 9px 30px;
+    color: #fff;
+    border-radius: 25px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.eventBanner2 .ev-btn:hover{
+    background: #fff;
+    color: #fc7108;
+    border: 2px solid #fc7108;
+}
+.addCalendarBox{
+    border: 2px solid #fc7108;
+    padding: 10px 30px;
+    color: #fc7108;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.addCalendarBox span{
+    margin-right: 10px;
+}
+.addCalendarBox span i{
+    font-size: 17px;
+}
+.evt-addcalendarhead{
+    font-size: 55px;
+    color: #000;
+    font-weight: 700;
+    
+}
+.eventjoin {
+    background: #f3f8ff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(120 120 120 / 34%);
+}
+.eventjoin .img {
+    width: 85px;
+}
+.eventjoin:hover .img{
+    transform: scale(1.1);
+}
+.eventjoin .evt-txt{
+    color: #fc7108;
+    padding-top: 15px;
+}
+.join_bg{
+    position: relative;
+    background: url('../../assets/images/joinBg.png');
+    padding: 70px 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+}
+.join_bg::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0 0 0 / 60%);
+    z-index: -1;
+}

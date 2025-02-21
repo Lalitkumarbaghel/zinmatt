@@ -36,7 +36,7 @@ function Header(){
           <a className="nav-link" href="#">Review</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Event</a>
+          <Link className="nav-link" to="/event">Event</Link>
         </li>
         <li className="nav-item">
         <a className="nav-link dropdown-toggle" href="#" >
