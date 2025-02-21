@@ -1,0 +1,32 @@
+.qualifi_box {
+    border: 1px solid #cdcdcd;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(201 201 201 / 50%);
+}
+.qualifi-avtar{
+    width: 100%;
+    height: 200px;
+    border-radius: 30px;
+    overflow: hidden;
+
+}
+.qualifi-avtar img{
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+.qualifi_box .typeInfo{
+    color: #FC7108;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 600;
+    padding-top: 12px;
+}
+.qualifi_box .stuName {
+    font-size: 18px;
+}
+.qualifi_box .stuRank{
+    font-size: 17px;
+    color: #777;
+}

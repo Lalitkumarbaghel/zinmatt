@@ -28,7 +28,7 @@ function Header(){
         <div className='submenu'>
             <ul>
                 <li><a className='subItem' href='#'>Intership</a></li>
-                <li><a className='subItem' href='#'>Qualified intern</a></li>
+                <li><Link className='subItem' to='/our-qualified-intern'>Qualified intern</Link></li>
             </ul>
         </div>
       </li>
