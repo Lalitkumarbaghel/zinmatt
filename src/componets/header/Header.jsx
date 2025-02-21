@@ -44,7 +44,7 @@ function Header(){
         </a>
         <div className='submenu'>
             <ul>
-                <li><a className='subItem' href='#'>Gallery</a></li>
+                <li><Link className='subItem' to='/gallery'>Gallery</Link></li>
                 <li><a className='subItem' href='#'>Contact us</a></li>
                 <li><a className='subItem' href='#'>Certificate verification</a></li>
                 <li><Link className='subItem' to='/blog'>Blog</Link></li>
