@@ -2,6 +2,7 @@ import './style.css'
 import Logo from '../../assets/images/logo.png'
 import MobileScreen from '../../assets/images/download_mobile.png'
 import GooglePlay from '../../assets/images/googleplay.png'
+import { Link } from 'react-router-dom'
 function Footer(){
     return(
         <footer className="container-fluid pt-5 refer_clients_bg text-white mt-auto">
@@ -22,10 +23,10 @@ function Footer(){
 							<a href="#">Download the App</a>
 						</li>
 						<li>
-							<a href="#">About Us</a>
+							<Link to="/about">About Us</Link>
 						</li>
 						<li>
-							<a href="#">Contact</a>
+							<Link to="/contact-us">Contact</Link>
 						</li>
 						<li>
 							<a href="#">Privacy Policy</a>
