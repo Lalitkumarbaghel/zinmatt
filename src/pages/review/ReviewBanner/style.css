@@ -1,0 +1,20 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css');
+.reviewBannertxt .headBn{
+    color: #000;
+    font-size: 50px;
+    font-weight: 700;
+}
+.reviewBannertxt .headBn .orangeclr{
+    display: block;
+    font-size: 80px;
+    letter-spacing: 1.5px;
+}
+.reviewBannertxt .title-bn{
+    font-size: 22px;
+    color: #777;
+    padding: 25px 0;
+}
+.reviewBannertxt .banner_icn img{
+    width: 320px;
+}

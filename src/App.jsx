@@ -9,6 +9,7 @@ import Blog from './pages/Blog/Blog'
 import Gallery from './pages/Gallery/Gallery'
 import ContactUs from './pages/ContactUs/Contactus'
 import QualifiedIntern from './pages/QualifiedIntern/QualifiedIntern'
+import Reviews from './pages/review'
 import Event from './pages/Event/Event'
 import Footer from './componets/footer/footer'
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route exact={true} path='/gallery' element={<Gallery/>} />
           <Route exact={true} path='/our-qualified-intern' element={<QualifiedIntern/>} />
           <Route exact={true} path='/event' element={<Event/>} />
+          <Route exact={true} path='/review' element={<Reviews/>} />
           <Route exact={true} path='/contact-us' element={<ContactUs/>} />
           <Route exact={true} path='/blog' element={<Blog/>} />
         </Routes>

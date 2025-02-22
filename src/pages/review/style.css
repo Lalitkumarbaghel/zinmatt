@@ -1,0 +1,80 @@
+.elebg {
+    background: #333;
+    padding: 25px;
+    border-radius: 10px 0 0 10px;
+    color: #fff;
+}
+.ele-head{
+    color: #fff;
+    font-size: 33px;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+}
+.ele-head2{
+    color: #fff;
+    padding: 15px 0;
+}
+.ele-txt{
+    font-size: 17px;
+    line-height: 1.4;
+    color: #f1f1f1;
+}
+.ele-btn{
+    display: inline-block;
+    color: #fff;
+    background: #019d05;
+    padding: 10px 27px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 25px;
+    border: 1px solid #019d05;
+}
+.ele-btn:hover{
+    background: #fff;
+    color: #019d05;
+    text-decoration: line-through;
+}
+.rev-platform {
+    background: #fc7108;
+    padding: 25px;
+    border-radius: 0 10px 10px 0;
+    min-height: 338px;
+}
+.plt-head {
+    font-size: 23px;
+    color: #fff;
+}
+.plt-txt{
+    font-size: 17px;
+    line-height: 1.4;
+    color: #f1f1f1;
+}
+.plt-ul{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 12px;
+}
+.plt-ul li{
+    display: flex;
+        color: #fff;
+        padding: 3px 0;
+        font-size: 18px;
+        align-items: center;
+}
+.plt-ul li .icn{
+    margin-right: 10px;
+    font-size: 15px;
+}
+.plt-head6{
+    color: #ffffff;
+    font-size: 19px;
+    padding-top: 15px;
+}
+.elebox .box1{
+    padding-right: 0;
+}
+.elebox .box2{
+    padding-left: 0;
+    min-height: 300px;
+}

@@ -6,7 +6,6 @@ function Courses(){
         <div>
             <Banner/>
             <ChooseCourse/>
-            {/* <Syllabus/> */}
             <SyllabusCourses/>
         </div>
     )

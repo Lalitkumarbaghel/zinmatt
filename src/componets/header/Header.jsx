@@ -33,7 +33,7 @@ function Header(){
         </div>
       </li>
       <li className="nav-item">
-          <a className="nav-link" href="#">Review</a>
+          <Link className="nav-link" to="/review">Review</Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link" to="/event">Event</Link>
