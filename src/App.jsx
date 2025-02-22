@@ -12,6 +12,7 @@ import QualifiedIntern from './pages/QualifiedIntern/QualifiedIntern'
 import Reviews from './pages/review'
 import Event from './pages/Event/Event'
 import About from './pages/AboutUs/About'
+import PrivacyPolicy from './pages/PrivacyPolicy/PrivacyPolicy'
 import Footer from './componets/footer/footer'
 function App() {
   //const [count, setCount] = useState(0)
@@ -28,6 +29,7 @@ function App() {
           <Route exact={true} path='/event' element={<Event/>} />
           <Route exact={true} path='/review' element={<Reviews/>} />
           <Route exact={true} path='/about' element={<About/>} />
+          <Route exact={true} path='/privacy-policy' element={<PrivacyPolicy/>} />
           <Route exact={true} path='/contact-us' element={<ContactUs/>} />
           <Route exact={true} path='/blog' element={<Blog/>} />
         </Routes>
