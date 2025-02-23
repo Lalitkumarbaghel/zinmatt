@@ -8,7 +8,7 @@ function Banner(){
                     <div className='col-md-5'>
                         <div className='banner_cnnt'>
                             <h1 className='fs-60'>We've amazing Skills for <span className='orangeclr btm_line'>Teaching</span></h1>
-                            <p className='text-grey fb-500 pt-5 line-h-1_4'>At Zinmatt, we’ve mastered the skills to teach digital marketing effectively, empowering you with the tools and knowledge needed for lasting success.</p>
+                            <p className='text-grey fb-500 pt-5 line-h-1_4'>At Learn Growth, we’ve mastered the skills to teach digital marketing effectively, empowering you with the tools and knowledge needed for lasting success.</p>
                             <div className='btn-group2 mt-4'>
                                 <a href='#' className='btn orngeBtn'>Explore Course</a>
                                 <a href='#' className='btn whitebtn'>Download Brochure</a>

@@ -11,7 +11,7 @@ function Footer(){
 			<div className="col-md-4">
 				<div className="footer_cntnt">
 					<img src={Logo} alt="" className='img-fluid' style={{width:"250px"}} />
-					<p>Enroll in our free program at Zinmatt and gain valuable skills in digital marketing, website development, graphics designing, and Facebook Ads. Unlock the door to limitless possibilities in the digital realm  start your learning journey with us today!</p>
+					<p>Enroll in our free program at Learn Growth and gain valuable skills in digital marketing, website development, graphics designing, and Facebook Ads. Unlock the door to limitless possibilities in the digital realm  start your learning journey with us today!</p>
 					
 				</div>
 			</div>
@@ -46,13 +46,13 @@ function Footer(){
 					
 					<ul className="links contact_info">
 						<li>
-							<a href="#" className='cont_icn'><span className='icn'><i className="fa-solid fa-location-dot"></i></span> <span className='info'>Gate No:-7, Regent Theatre, The Hub, 3rd Floor Besides, Near Gandhi Maidan Rd, Patna, Bihar 800004</span></a>
+							<a href="#" className='cont_icn'><span className='icn'><i className="fa-solid fa-location-dot"></i></span> <span className='info'>H 94 h block sector 63 near sector 63 metro station noida up 201301</span></a>
 						</li>
 						<li>
-							<a href="#" className='cont_icn'><span className='icn'><i className="fa-solid fa-envelope"></i></span><span className='info'>Email: Support@zinmatt.com</span></a>
+							<a href="mailto:support@learngrowth.in" className='cont_icn'><span className='icn'><i className="fa-solid fa-envelope"></i></span><span className='info'>Email: support@learngrowth.in</span></a>
 						</li>
 						<li>
-							<a href="#" className='cont_icn'><span className='icn'><i className="fa-solid fa-mobile-screen"></i></span><span className='info'>Mobile: +91 8969353544</span></a>
+							<a href="tel:9560488126" className='cont_icn'><span className='icn'><i className="fa-solid fa-mobile-screen"></i></span><span className='info'>Mobile: +91 9560488126</span></a>
 						</li>
 						
 					</ul>
@@ -60,7 +60,7 @@ function Footer(){
 			</div>
 			<div className="col-md-3">
 				<div className="footer_cntnt">
-					<h5>Download Zinmatt App</h5>
+					<h5>Download Learn Growth App</h5>
                     <img src={MobileScreen} style={{width: "120px", marginTop:"10px"}} />
 					<img src={GooglePlay} style={{width: "120px", marginTop:"10px", display:"block"}}/>
 				</div>
@@ -72,7 +72,7 @@ function Footer(){
         <div className='container'>
             <div className='row'>
                 <div className="col-md-6">
-                    <p>Copyright © 2025 Zinmatt.com | Powered by ZINMATT PRIVATE LIMITED</p>
+                    <p>Copyright © 2025 learngrowth.in | Powered by LEARN GROWTH PVT LTD</p>
                 </div>
                 <div className="col-md-6">
                 <ul className="social_icns">

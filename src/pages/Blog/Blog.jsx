@@ -26,9 +26,9 @@ function Blog(){
                             <img src="https://zinmatt.com/wp-content/uploads/2024/04/image-10.jpeg" className="card-img-top" alt="..." />
                             
                             <div className="card-body">
-                                <a className="card-title blogHead" href='#'>Digital Marketing Course in Patna | Zinmatt: The Best Learning Platform</a>
+                                <a className="card-title blogHead" href='#'>Digital Marketing Course in Patna | Learn Growth: The Best Learning Platform</a>
                                     <p className='blogTime'>June 21, 2024 //// No Comments</p>
-                                <p className="card-text headDes">Introduction Digital marketing course in Patna: Zinmatt, founded in 2022 by Manish Rawat, is a leading platform offering comprehensive training</p>
+                                <p className="card-text headDes">Introduction Digital marketing course in Patna: Learn Growth, founded in 2022 by Manish Rawat, is a leading platform offering comprehensive training</p>
                                 <a href='#' className='Blog-Read'>Read More</a>
                             </div>
                             </div>

@@ -4,7 +4,7 @@ function JourneryHome(){
         <section className='container-fluid pt-4 journeryCntnt'>
             <div className='row'>
                 <div className='col-md-12'>
-                    <h1 className='orangeclr text-center'>Zinmatt Journey at a Glance</h1>
+                    <h1 className='orangeclr text-center'>Learn Growth Journey at a Glance</h1>
                 </div>
             </div>
             <div className='imgJournery'>

@@ -7,7 +7,7 @@ function Header(){
             <nav className="navbar navbar-expand-lg navbar_box">
   <div className="container">
     <Link className="navbar-brand" to="/">
-        <img  style={{width:'180px'}} src={Logo} />
+        <img  style={{width:'190px'}} src={Logo} />
     </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>

@@ -6,7 +6,7 @@ function ZinmattNumber(){
                 
                 <div className='row'>
                     <div className='col-md-12'>
-                        <h1 className='text-center white-clr fs-50'>Zinmatt in <span className='orangeclr'>number</span></h1>
+                        <h1 className='text-center white-clr fs-50'>Learn Growth in <span className='orangeclr'>number</span></h1>
                     </div>
                     <div className="col-md-3 pt-4 text-center">
                         <div className='zitmattNumber'>

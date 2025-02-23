@@ -8,7 +8,7 @@ function ChooseCourse(){
                         <div className='choose_card'>
                             <img className='img' src='https://zinmatt.com/wp-content/uploads/2024/10/choose-1.png' />
                             <h2 className='head2'>Why Choose Us</h2>
-                            <p className='txt2'>At Zinmatt, we offer expert-led digital marketing training, real-world projects, and personalized support to help you succeed in the digital space.</p>
+                            <p className='txt2'>At Learn Growth, we offer expert-led digital marketing training, real-world projects, and personalized support to help you succeed in the digital space.</p>
                             <a href='#' className='btn orngeBtn'>Learn More</a>
                         </div>
                     </div>
@@ -16,7 +16,7 @@ function ChooseCourse(){
                         <div className='choose_card'>
                             <img className='img' src='https://zinmatt.com/wp-content/uploads/2024/10/choose-2.png' style={{width:"60px"}} />
                             <h2 className='head2 text-deco'>Flexible Learning</h2>
-                            <p className='txt2'>Learn at your own pace with Zinmatt's flexible online courses. Access lessons anytime, anywhere, and tailor your learning experience to fit your schedule.</p>
+                            <p className='txt2'>Learn at your own pace with Learn Growth's flexible online courses. Access lessons anytime, anywhere, and tailor your learning experience to fit your schedule.</p>
                         </div>
                     </div>
                     <div className='col-md-4 pt-3'>
@@ -30,14 +30,14 @@ function ChooseCourse(){
                         <div className='choose_card'>
                             <img className='img' src='https://zinmatt.com/wp-content/uploads/2024/10/support.png' style={{width:"60px"}} />
                             <h2 className='head2 text-deco'>Flexible Learning</h2>
-                            <p className='txt2'>At Zinmatt, we provide dedicated hand-holding support, guiding you step-by-step through your learning journey to ensure you gain confidence and achieve success.</p>
+                            <p className='txt2'>At Learn Growth, we provide dedicated hand-holding support, guiding you step-by-step through your learning journey to ensure you gain confidence and achieve success.</p>
                         </div>
                     </div>
                     <div className='col-md-4 pt-3'>
                         <div className='choose_card'>
                             <img className='img' src='https://zinmatt.com/wp-content/uploads/2024/10/certificate.png' style={{width:"60px"}} />
                             <h2 className='head2 text-deco'>Certification</h2>
-                            <p className='txt2'>Earn a recognized certification from Zinmatt upon course completion. Showcase your digital marketing skills to enhance your resume, boost credibility, and unlock career opportunities.</p>
+                            <p className='txt2'>Earn a recognized certification from Learn Growth upon course completion. Showcase your digital marketing skills to enhance your resume, boost credibility, and unlock career opportunities.</p>
                         </div>
                     </div>
                 </div>

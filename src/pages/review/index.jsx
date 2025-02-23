@@ -22,15 +22,15 @@ function Reviews(){
                         <div className="col-md-6 box1">
                             <div className="elebg">
                                 <h3 className="ele-head">ELEVATE</h3>
-                                <h5 className="ele-head2">Master the Digital Realm: Unlock Your Potential with Zinmatt Pvt Ltd's Premier Learning Platform!</h5>
-                                <p className="ele-txt">Discover the art and science of digital marketing with Zinmatt Pvt Ltd. From fundamentals to advanced tactics, our platform provides a rich learning experience tailored to your goals. Gain the skills, insights, and strategies needed to thrive in today’s competitive digital landscape. Start your journey with us today!</p>
+                                <h5 className="ele-head2">Master the Digital Realm: Unlock Your Potential with Learn Growth Pvt Ltd's Premier Learning Platform!</h5>
+                                <p className="ele-txt">Discover the art and science of digital marketing with Learn Growth Pvt Ltd. From fundamentals to advanced tactics, our platform provides a rich learning experience tailored to your goals. Gain the skills, insights, and strategies needed to thrive in today’s competitive digital landscape. Start your journey with us today!</p>
                                 <a className="ele-btn" href="#">Get in Touch</a>
                             </div>
                         </div>
                         <div className="col-md-6 box2">
                             <div className="rev-platform">
                                 <h5 className="plt-head">India's most active learning platform</h5>
-                                <p className="plt-txt">Empowering India’s Brightest Minds: Experience Unparalleled Growth and Learning on Zinmatt, the Nation’s Leading Active Learning Platform.</p>
+                                <p className="plt-txt">Empowering India’s Brightest Minds: Experience Unparalleled Growth and Learning on Learn Growth, the Nation’s Leading Active Learning Platform.</p>
                                 <ul className="plt-ul">
                                     <li><span className="icn"><i className="fa-solid fa-clock"></i></span><span className="txt">Project On Time</span></li>
                                     <li><span className="icn"><i className="fa-solid fa-desktop"></i></span><span className="txt">Modern Technology</span></li>

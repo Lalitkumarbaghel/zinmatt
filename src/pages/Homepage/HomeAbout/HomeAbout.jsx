@@ -41,7 +41,7 @@ function HomeAbout() {
                 <span className="icn">
                   <i className="fa-brands fa-dropbox"></i>
                 </span>
-                <span>About Zinmatt</span>
+                <span>About Learn Growth</span>
               </Link>
             </div>
           </div>

@@ -28,7 +28,7 @@ function QualifiedIntern(){
                             </div>
                             <h3 className='typeInfo'>Graphic Designer</h3>
                             <h5 className='stuName'>Name :- YOGESH</h5>
-                            <p className='stuRank'>Zinmatt Batch:- </p>
+                            <p className='stuRank'>Learn Growth Batch:- </p>
                         </div>
                         
                     </div>
@@ -40,7 +40,7 @@ function QualifiedIntern(){
                             </div>
                             <h3 className='typeInfo'>Content Writer</h3>
                             <h5 className='stuName'>Name :- Heikrujam </h5>
-                            <p className='stuRank'>Zinmatt Batch:- </p>
+                            <p className='stuRank'>Learn Growth Batch:- </p>
                         </div>
                         
                     </div>
@@ -51,7 +51,7 @@ function QualifiedIntern(){
                             </div>
                             <h3 className='typeInfo'>Content Writer</h3>
                             <h5 className='stuName'>Name :- Rampravesh</h5>
-                            <p className='stuRank'>Zinmatt Batch:- </p>
+                            <p className='stuRank'>Learn Growth Batch:- </p>
                         </div>
                         
                     </div>
@@ -62,7 +62,7 @@ function QualifiedIntern(){
                             </div>
                             <h3 className='typeInfo'>SEO</h3>
                             <h5 className='stuName'>Name :- Kirti Mishra</h5>
-                            <p className='stuRank'>Zinmatt Batch:- </p>
+                            <p className='stuRank'>Learn Growth Batch:- </p>
                         </div>
                         
                     </div>
@@ -73,7 +73,7 @@ function QualifiedIntern(){
                             </div>
                             <h3 className='typeInfo'>Content Writer</h3>
                             <h5 className='stuName'>Name :- Nikhil Khekade</h5>
-                            <p className='stuRank'>Zinmatt Batch:- </p>
+                            <p className='stuRank'>Learn Growth Batch:- </p>
                         </div>
                         
                     </div>
@@ -86,7 +86,7 @@ function QualifiedIntern(){
                             </div>
                             <h3 className='typeInfo'>SEO</h3>
                             <h5 className='stuName'>Name :- MANISH</h5>
-                            <p className='stuRank'>Zinmatt Batch:- </p>
+                            <p className='stuRank'>Learn Growth Batch:- </p>
                         </div>
                         
                     </div>
@@ -97,7 +97,7 @@ function QualifiedIntern(){
                             </div>
                             <h3 className='typeInfo'>Graphic Designer</h3>
                             <h5 className='stuName'>Name :- Arav sahu</h5>
-                            <p className='stuRank'>Zinmatt Batch:- </p>
+                            <p className='stuRank'>Learn Growth Batch:- </p>
                         </div>
                         
                     </div>
@@ -108,7 +108,7 @@ function QualifiedIntern(){
                             </div>
                             <h3 className='typeInfo'>Graphic Designer</h3>
                             <h5 className='stuName'>Name :- Jyoti Maheshwari</h5>
-                            <p className='stuRank'>Zinmatt Batch:- </p>
+                            <p className='stuRank'>Learn Growth Batch:- </p>
                         </div>
                         
                     </div>
@@ -119,7 +119,7 @@ function QualifiedIntern(){
                             </div>
                             <h3 className='typeInfo'>Content Writer</h3>
                             <h5 className='stuName'>Name :- Ankush</h5>
-                            <p className='stuRank'>Zinmatt Batch:- </p>
+                            <p className='stuRank'>Learn Growth Batch:- </p>
                         </div>
                         
                     </div>
@@ -130,7 +130,7 @@ function QualifiedIntern(){
                             </div>
                             <h3 className='typeInfo'>Graphic Designer</h3>
                             <h5 className='stuName'>Name :- Pawan Nagar</h5>
-                            <p className='stuRank'>Zinmatt Batch:- </p>
+                            <p className='stuRank'>Learn Growth Batch:- </p>
                         </div>
                         
                     </div>

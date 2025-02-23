@@ -6,7 +6,7 @@ function PrivacyPolicy(){
                     <div className='col-md-12'>
                     <h1 className='pb-5 orangeclr'>Privacy Policy</h1>
                     <h2 className='pb-3'>Who we are</h2>
-                    <p className='pb-5'><strong>Suggested text</strong>: Our website address is: https://zinmatt.com.</p>
+                    <p className='pb-5'><strong>Suggested text</strong>: Our website address is: https://learngrowth.in/</p>
                     <h2 className='pb-3'>Comments</h2>
                     <p className='pb-5'><strong>Suggested text</strong>: When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor’s IP address and browser user agent string to help spam detection.<br /><br />
                     An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it. The Gravatar service privacy policy is available here: https://automattic.com/privacy/. After approval of your comment, your profile picture is visible to the public in the context of your comment.</p>

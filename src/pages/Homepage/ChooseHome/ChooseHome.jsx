@@ -8,7 +8,7 @@ function ChooseHome(){
                 <div className='col-md-12'>
                     <div className='choose_zimatt_box'>
                         <img src='https://zinmatt.com/wp-content/uploads/2024/03/cropped-Red-Purple-Modern-Minimalist-Initial-AS-Letter-Logo.png' style={{width:"80px", display:"block", margin:"0 auto"}}/>
-                        <h1 className="text-center head_high pb-4">Why Choose <span className='orangeclr'>Zinmatt</span>?</h1>
+                        <h1 className="text-center head_high pb-4">Why Choose <span className='orangeclr'>Learn Growth</span>?</h1>
                     </div>
                 </div>
             </div>
@@ -75,7 +75,7 @@ function ChooseHome(){
                 <div className='icn other'>
                     <img className='img' src='https://zinmatt.com/wp-content/uploads/2024/03/cropped-Red-Purple-Modern-Minimalist-Initial-AS-Letter-Logo.png' />
                     </div>
-                    <span className='txt youtube'>ZINMATT</span>
+                    <span className='txt youtube'>Learn Growth</span>
                     
                 </div>
                 <div className='choose_list'>

@@ -34,8 +34,8 @@ function ContactUs(){
                             <div className='contactCard'>
                                 <i className="fa-solid fa-life-ring icn"></i>
                                 <h4 className='head'>Our support</h4>
-                                <p className='txt'>"Your Direct Line to Solutions!" 8969353544</p>
-                                <a href='#' className='smpbtn'>Get support<span><i className="fa-solid fa-arrow-right"></i></span></a>
+                                <p className='txt'>"Your Direct Line to Solutions!" 9560488126</p>
+                                <a href='tel:9560488126' className='smpbtn'>Get support<span><i className="fa-solid fa-arrow-right"></i></span></a>
                             </div>
                         </div>
                         <div className="col-md-4 pt-2">
@@ -69,17 +69,18 @@ function ContactUs(){
                         <div className="col-md-5 pt-2">
                             <div className='contactCard'>
                                 <i className="fa-solid fa-location-dot icn"></i>
-                                <h4 className='head'>WELCOME TO ZINMATT</h4>
+                                <h4 className='head'>WELCOME TO Learn Growth</h4>
                                 <p className='txt'>"Where Community meets Opportunity"</p>
-                                <h5>Address: Gate no:-7, Regent theatre, The Hub, 3rd Floor Besides, Near, Gandhi Maidan Rd, Patna, Bihar 800004</h5>
-                                <a href='#' className='smpbtn'>Get in Touch<span><i className="fa-solid fa-arrow-right"></i></span></a>
+                                <h5>Address: H 94 h block sector 63 near sector 63 metro station noida up 201301</h5>
+                                <a href='tel:9560488126' className='smpbtn'>Get in Touch<span><i className="fa-solid fa-arrow-right"></i></span></a>
                             </div>
                         </div>
                         <div className="col-md-7 pt-2">
                         <div className='mapbox'>
                         
 
-                        <div className="mapouter"><div className="gmap_canvas"><iframe className="gmap_iframe" width="100%"  scrolling="no"  src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Gate no:-7, Regent theatre, The Hub, 3rd Floor Besides, Near, Gandhi Maidan Rd, Patna, Bihar 800004&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://sprunkin.com/">Sprunki Game</a></div></div>
+                        {/* <div className="mapouter"><div className="gmap_canvas"><iframe className="gmap_iframe" width="100%" scrolling="no" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Gate no:-7, Regent theatre, The Hub, 3rd Floor Besides, Near, Gandhi Maidan Rd, Patna, Bihar 800004&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://sprunkin.com/">Sprunki Game</a></div></div> */}
+                        <div className="mapouter"><div className="gmap_canvas"><iframe className="gmap_iframe" width="100%" scrolling="no" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=H 94 h block sector 63 near sector 63 metro station noida up 201301&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://sprunkin.com/">Sprunki Game</a></div></div>
 
                         </div>
                         </div>
