@@ -28,7 +28,7 @@ function DownloadPdf(){
                             </div>
                             
                             
-                            <button type="submit"  className="btn btn-success"><i class="fa-solid fa-download"></i> Download</button>
+                            <button type="submit"  className="btn btn-success"><i className="fa-solid fa-download"></i> Download</button>
                             </form>
                     </div>
                 </div>

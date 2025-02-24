@@ -19,7 +19,7 @@ function SyllabusCourses(){
                         <div className='col-md-12 pb-3'>
                             <h1>Our Syllabus</h1>
                         </div>
-                    <div className='col-md-6 col-lg-4 col-xl-3 pt-2' data-aos="zoom-in">
+                    <div className='col-md-6 col-lg-4 col-xl-3 pt-2' data-aos="slide-up">
                     <div className="card syllabuseCard" >
                             <img src="https://zinmatt.com/wp-content/uploads/2024/10/3-1536x1044.png" className="card-img-top" alt="..." />
                             <div className='d-flex align-items-center justify-content-between px-3 mt-3'>
@@ -40,7 +40,7 @@ function SyllabusCourses(){
                             </div>
                             </div>
                     </div>
-                    <div className='col-md-6 col-lg-4 col-xl-3 pt-2' data-aos="zoom-in-up">
+                    <div className='col-md-6 col-lg-4 col-xl-3 pt-2' data-aos="slide-up">
                     <div className="card syllabuseCard" >
                             <img src="https://zinmatt.com/wp-content/uploads/2024/10/2-1536x1044.png" className="card-img-top" alt="..." />
                             <div className='d-flex align-items-center justify-content-between px-3 mt-3'>
@@ -61,7 +61,7 @@ function SyllabusCourses(){
                             </div>
                             </div>
                     </div>
-                    <div className='col-md-6 col-lg-4 col-xl-3 pt-2' data-aos="zoom-in-down">
+                    <div className='col-md-6 col-lg-4 col-xl-3 pt-2' data-aos="slide-up">
                     <div className="card syllabuseCard" >
                             <img src="https://zinmatt.com/wp-content/uploads/2024/10/1-1536x1044.png" className="card-img-top" alt="..." />
                             <div className='d-flex align-items-center justify-content-between px-3 mt-3'>
@@ -82,7 +82,7 @@ function SyllabusCourses(){
                             </div>
                             </div>
                     </div>
-                    <div className='col-md-6 col-lg-4 col-xl-3 pt-2' data-aos="zoom-in-left">
+                    <div className='col-md-6 col-lg-4 col-xl-3 pt-2' data-aos="slide-up">
                     <div className="card syllabuseCard">
                             <img src="https://zinmatt.com/wp-content/uploads/2024/10/Create-Manage-Optimize-1-1536x1044.png" className="card-img-top" alt="..." />
                             <div className='d-flex align-items-center justify-content-between px-3 mt-3'>
@@ -90,7 +90,8 @@ function SyllabusCourses(){
                                 <h6>By Sidharth Kumar</h6>
                             </div>
                             <div className="card-body">
-                                <h4 className="card-title">WordPress Development</h4>
+                                <h4 className="card-title">Google My Business (GMB)
+                                </h4>
                                 <div className='starcntnt'>
                                     <i className="fa-solid fa-star"></i>
                                     <i className="fa-solid fa-star"></i>
@@ -103,7 +104,7 @@ function SyllabusCourses(){
                             </div>
                             </div>
                     </div>
-                    <div className='col-md-6 col-lg-4 col-xl-3 pt-2' data-aos="zoom-in-right">
+                    <div className='col-md-6 col-lg-4 col-xl-3 pt-2' data-aos="slide-up">
                     <div className="card syllabuseCard">
                             <img src="https://zinmatt.com/wp-content/uploads/2024/10/8-1536x1044.png" className="card-img-top" alt="..." />
                             <div className='d-flex align-items-center justify-content-between px-3 mt-3'>
@@ -124,7 +125,7 @@ function SyllabusCourses(){
                             </div>
                             </div>
                     </div>
-                    <div className='col-md-6 col-lg-4 col-xl-3 pt-2' data-aos="zoom-out">
+                    <div className='col-md-6 col-lg-4 col-xl-3 pt-2' data-aos="slide-up">
                     <div className="card syllabuseCard">
                             <img src="https://zinmatt.com/wp-content/uploads/2024/10/4-1536x1044.png" className="card-img-top" alt="..." />
                             <div className='d-flex align-items-center justify-content-between px-3 mt-3'>
@@ -145,7 +146,7 @@ function SyllabusCourses(){
                             </div>
                             </div>
                     </div>
-                    <div className='col-md-6 col-lg-4 col-xl-3 pt-2' data-aos="zoom-out-up">
+                    <div className='col-md-6 col-lg-4 col-xl-3 pt-2' data-aos="slide-up">
                     <div className="card syllabuseCard">
                             <img src="https://zinmatt.com/wp-content/uploads/2024/10/5-1536x1044.png" className="card-img-top" alt="..." />
                             <div className='d-flex align-items-center justify-content-between px-3 mt-3'>
@@ -166,7 +167,7 @@ function SyllabusCourses(){
                             </div>
                             </div>
                     </div>
-                    <div className='col-md-6 col-lg-4 col-xl-3 pt-2' data-aos="zoom-out-down">
+                    <div className='col-md-6 col-lg-4 col-xl-3 pt-2' data-aos="slide-up">
                     <div className="card syllabuseCard">
                             <img src="https://zinmatt.com/wp-content/uploads/2024/10/Create-Manage-Optimize-3-1536x1044.png" className="card-img-top" alt="..." />
                             <div className='d-flex align-items-center justify-content-between px-3 mt-3'>
@@ -183,6 +184,103 @@ function SyllabusCourses(){
                                     <i className="fa-solid fa-star"></i>
                                 </div>
                                 <p className="card-text">Enhance your storytelling and create professional content by mastering the art of video editing.
+                                </p>
+                                
+                            </div>
+                            </div>
+                    </div>
+                    <div className='col-md-6 col-lg-4 col-xl-3 pt-2' data-aos="slide-up">
+                    <div className="card syllabuseCard">
+                            <img src="https://zinmatt.com/wp-content/uploads/2024/10/6-1536x1044.png" className="card-img-top" alt="..." />
+                            <div className='d-flex align-items-center justify-content-between px-3 mt-3'>
+                                <p className='bordertxt'>5 Days</p>
+                                <h6>By Raushan Kumar</h6>
+                            </div>
+                            <div className="card-body">
+                                <h4 className="card-title">Content Marketing
+                                </h4>
+                                <div className='starcntnt'>
+                                    <i className="fa-solid fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
+                                </div>
+                                <p className="card-text">Content marketing focuses on creating valuable, relevant content to attract, engage, and convert target audiences.
+                                </p>
+                                
+                            </div>
+                            </div>
+                    </div>
+                    <div className='col-md-6 col-lg-4 col-xl-3 pt-2' data-aos="slide-up">
+                    <div className="card syllabuseCard">
+                            <img src="https://zinmatt.com/wp-content/uploads/2024/10/7-1536x1044.png" className="card-img-top" alt="..." />
+                            <div className='d-flex align-items-center justify-content-between px-3 mt-3'>
+                                <p className='bordertxt'>10 Days</p>
+                                <h6>By Pankaj Kumar
+                                </h6>
+                            </div>
+                            <div className="card-body">
+                                <h4 className="card-title">Google Ads
+                                </h4>
+                                <div className='starcntnt'>
+                                    <i className="fa-solid fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
+                                </div>
+                                <p className="card-text">Google Ads helps businesses reach targeted audiences, drive traffic, and increase conversions through paid search advertising.
+
+                                </p>
+                                
+                            </div>
+                            </div>
+                    </div>
+                    <div className='col-md-6 col-lg-4 col-xl-3 pt-2' data-aos="slide-up">
+                    <div className="card syllabuseCard">
+                            <img src="https://zinmatt.com/wp-content/uploads/2024/10/9-1536x1044.png" className="card-img-top" alt="..." />
+                            <div className='d-flex align-items-center justify-content-between px-3 mt-3'>
+                                <p className='bordertxt'>5 Days</p>
+                                <h6>By Raushan Kumar
+                                </h6>
+                            </div>
+                            <div className="card-body">
+                                <h4 className="card-title">Artificial Intelligence
+                                </h4>
+                                <div className='starcntnt'>
+                                    <i className="fa-solid fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
+                                </div>
+                                <p className="card-text">Learn AI to automate tasks, enhance decision-making, and create intelligent, data-driven solutions.
+
+                                </p>
+                                
+                            </div>
+                            </div>
+                    </div>
+                    <div className='col-md-6 col-lg-4 col-xl-3 pt-2' data-aos="slide-up">
+                    <div className="card syllabuseCard">
+                            <img src="https://zinmatt.com/wp-content/uploads/2024/10/Create-Manage-Optimize-2-1536x1044.png" className="card-img-top" alt="..." />
+                            <div className='d-flex align-items-center justify-content-between px-3 mt-3'>
+                                <p className='bordertxt'>5 Days</p>
+                                <h6>By Amardeep Rawat
+                                </h6>
+                            </div>
+                            <div className="card-body">
+                                <h4 className="card-title">Dropshipping</h4>
+                                <div className='starcntnt'>
+                                    <i className="fa-solid fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
+                                </div>
+                                <p className="card-text">Boost your e-commerce success and profits by mastering the art of dropshipping.
+
                                 </p>
                                 
                             </div>

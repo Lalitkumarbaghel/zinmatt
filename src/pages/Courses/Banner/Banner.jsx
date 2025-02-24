@@ -1,5 +1,6 @@
 import './style.css'
 import Arrowbanner from '../../../assets/images/banner_arrow.png'
+import { Link } from 'react-router-dom';
 function Banner(){
     return(
         <section className='container-fluid pt-5 pb-5 lightBg'>
@@ -11,7 +12,7 @@ function Banner(){
                             <p className='text-grey fb-500 pt-5 line-h-1_4'>At Learn Growth, we’ve mastered the skills to teach digital marketing effectively, empowering you with the tools and knowledge needed for lasting success.</p>
                             <div className='btn-group2 mt-4'>
                                 <a href='#' className='btn orngeBtn'>Explore Course</a>
-                                <a href='#' className='btn whitebtn'>Download Brochure</a>
+                                <Link to='/downloadpdf' className='btn whitebtn'>Download Brochure</Link>
                             </div>
                             <div className='studentList'>
                                     <img src='https://zinmatt.com/wp-content/uploads/2024/10/Untitled-design-10.png' style={{width:"150px"}} />
