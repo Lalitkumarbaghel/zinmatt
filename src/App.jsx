@@ -15,6 +15,7 @@ import About from './pages/AboutUs/About'
 import PrivacyPolicy from './pages/PrivacyPolicy/PrivacyPolicy'
 import TermsCondition from './pages/TermsConditions/TermsCondition'
 import Disclaimer from './pages/Disclaimer/Disclaimer'
+import DownloadPdf from './pages/Download/Download'
 import Footer from './componets/footer/footer'
 function App() {
   //const [count, setCount] = useState(0)
@@ -34,6 +35,7 @@ function App() {
           <Route exact={true} path='/privacy-policy' element={<PrivacyPolicy/>} />
           <Route exact={true} path='/terms-conditions' element={<TermsCondition/>} />
           <Route exact={true} path='/disclaimer' element={<Disclaimer/>} />
+          <Route exact={true} path='/downloadpdf' element={<DownloadPdf/>} />
           <Route exact={true} path='/contact-us' element={<ContactUs/>} />
           <Route exact={true} path='/blog' element={<Blog/>} />
         </Routes>

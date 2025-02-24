@@ -1,8 +1,12 @@
 import { Link } from 'react-router-dom';
 import Logo from '../../assets/images/logo.png'
-import { useEffect } from 'react';
+
+import React,  { useEffect, useState } from 'react';
+
 import './style.css'
 function Header(){
+  
+  
   useEffect(() => {
     window.addEventListener('scroll', isSticky);
     return () => {
@@ -18,6 +22,7 @@ function Header(){
         };
     return(
         <div>
+          
             <nav className="navbar navbar-expand-lg navbar_box header-section">
   <div className="container">
     <Link className="navbar-brand" to="/">
@@ -66,7 +71,7 @@ function Header(){
         </div>
       </li>
       <li className="nav-item">
-        <a href='#' className='heade_downbtn'><span><i className="fa-solid fa-download"></i></span> Download Brochure</a>
+        <Link type='button'  className='heade_downbtn' to="/downloadpdf"><span><i className="fa-solid fa-download"></i></span> Download Brochure</Link>
       </li>
       </ul>
     </div>
