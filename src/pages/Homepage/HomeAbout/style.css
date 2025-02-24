@@ -153,3 +153,13 @@
     color: #fc7108;
     font-weight: 600;
 }
+
+@media only screen and (max-width:991px){
+    .aboutJoinbtn .btn {padding: 8px 20px;font-size: 18px;}
+    .head_grey {font-size: 20px;padding-top: 10px;}
+    .head_light {font-size: 55px;}
+    .aboutBtns {font-size: 25px;margin-top: 10px;}
+}
+@media only screen and (max-width:767px){
+    .heading-title {font-size: 35px;}
+}

@@ -18,3 +18,16 @@
 .reviewBannertxt .banner_icn img{
     width: 320px;
 }
+@media only screen and (max-width:991px){
+    .reviewBannertxt .headBn {font-size: 45px;}
+    .reviewBannertxt .headBn .orangeclr {font-size: 65px;}
+    .reviewBannertxt .banner_icn img {width: 250px;}
+    .reviewBannertxt .title-bn {font-size: 20px;padding: 15px 0;}
+    /*  */
+}
+@media only screen and (max-width:767px){
+    .videoPlay{
+        width: 100%!important;
+        height: 100%!important;
+    }
+}

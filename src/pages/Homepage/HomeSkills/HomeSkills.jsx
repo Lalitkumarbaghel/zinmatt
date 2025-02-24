@@ -1,5 +1,15 @@
+import { useEffect } from 'react';
 import './style.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function HomeSkills(){
+    useEffect(()=>{
+        AOS.init({
+            duration:2000,
+            mirror: true,
+            once: true
+        })
+    }, [])
     return (
         <section className='container-fluid'>
             <div className='container'>
@@ -9,7 +19,7 @@ function HomeSkills(){
                     </div>
                 </div>
                 <div className='row'>
-                    <div className='col-md-3 pt-4'>
+                    <div className='col-sm-6 col-md-4 col-lg-3 pt-4' data-aos="zoom-in-up">
                         <div className='skills_card'>
                         <div className="card" >
                             <div className='icn'>
@@ -23,7 +33,7 @@ function HomeSkills(){
                         </div>
                     </div>
 
-                    <div className='col-md-3 pt-4'>
+                    <div className='col-sm-6 col-md-4 col-lg-3 pt-4' data-aos="zoom-in-left">
                         <div className='skills_card'>
                         <div className="card" >
                             <div className='icn'>
@@ -36,7 +46,7 @@ function HomeSkills(){
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-3 pt-4'>
+                    <div className='col-sm-6 col-md-4 col-lg-3 pt-4' data-aos="zoom-in-right">
                         <div className='skills_card'>
                         <div className="card" >
                             <div className='icn'>
@@ -49,7 +59,7 @@ function HomeSkills(){
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-3 pt-4'>
+                    <div className='col-sm-6 col-md-4 col-lg-3 pt-4' data-aos="zoom-out">
                         <div className='skills_card'>
                         <div className="card" >
                             <div className='icn'>
@@ -62,7 +72,7 @@ function HomeSkills(){
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-3 pt-4'>
+                    <div className='col-sm-6 col-md-4 col-lg-3 pt-4' data-aos="zoom-out-up">
                         <div className='skills_card'>
                         <div className="card" >
                             <div className='icn'>
@@ -75,7 +85,7 @@ function HomeSkills(){
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-3 pt-4'>
+                    <div className='col-sm-6 col-md-4 col-lg-3 pt-4' data-aos="zoom-out-down">
                         <div className='skills_card'>
                         <div className="card" >
                             <div className='icn'>
@@ -88,7 +98,7 @@ function HomeSkills(){
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-3 pt-4'>
+                    <div className='col-sm-6 col-md-4 col-lg-3 pt-4' data-aos="zoom-out-left">
                         <div className='skills_card'>
                         <div className="card" >
                             <div className='icn'>
@@ -101,7 +111,7 @@ function HomeSkills(){
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-3 pt-4'>
+                    <div className='col-sm-6 col-md-4 col-lg-3 pt-4' data-aos="zoom-out-right">
                         <div className='skills_card'>
                         <div className="card" >
                             <div className='icn'>
@@ -114,7 +124,7 @@ function HomeSkills(){
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-3 pt-4'>
+                    <div className='col-sm-6 col-md-4 col-lg-3 pt-4' data-aos="zoom-in">
                         <div className='skills_card'>
                         <div className="card" >
                             <div className='icn'>
@@ -127,7 +137,7 @@ function HomeSkills(){
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-3 pt-4'>
+                    <div className='col-sm-6 col-md-4 col-lg-3 pt-4' data-aos="zoom-in-up">
                         <div className='skills_card'>
                         <div className="card" >
                             <div className='icn'>
@@ -140,7 +150,7 @@ function HomeSkills(){
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-3 pt-4'>
+                    <div className='col-sm-6 col-md-4 col-lg-3 pt-4' data-aos="zoom-in-down">
                         <div className='skills_card'>
                         <div className="card" >
                             <div className='icn'>
@@ -153,7 +163,7 @@ function HomeSkills(){
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-3 pt-4'>
+                    <div className='col-sm-6 col-md-4 col-lg-3 pt-4' data-aos="zoom-in-left">
                         <div className='skills_card'>
                         <div className="card" >
                             <div className='icn'>

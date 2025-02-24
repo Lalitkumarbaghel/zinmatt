@@ -10,3 +10,6 @@
     background-color:#fff4ec;
     color: #fc7108!important;
 }
+@media only screen and (max-width:767px){
+    .frequency_mar{margin-top: 0!important;}
+}

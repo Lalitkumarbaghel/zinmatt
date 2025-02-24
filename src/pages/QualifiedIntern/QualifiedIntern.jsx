@@ -1,13 +1,23 @@
 import './style.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 function QualifiedIntern(){
+    useEffect(()=>{
+            AOS.init({
+                duration:2000,
+                mirror: true,
+                once: true
+            })
+        }, [])
     return (
         <div>
             <section className='container-fluid pt-5 pb-5 lightBg'>
                 <div className='container'>
-                    <div className='row justify-content-center align-items-center'>
+                    <div className='row justify-content-center align-items-center' data-aos="slide-up">
                         <div className='col-md-6'>
                             <div className='qualifyBanner'>
-                                <h1 className='fs-50'>Our Qualified Intern</h1>
+                                <h1 className='fs-50 orangeclr'>Our Qualified Intern</h1>
                                 <p className='pt-2 pb-2'>Nurturing talent through our internship program.</p>
                                 <h3>We Provide expert mentorshipendless </h3>
                             </div>
@@ -20,8 +30,8 @@ function QualifiedIntern(){
             </section>
             <section className='container-fluid'>
                 <div className='container'>
-                <div className="row pt-5 pb-5">
-                    <div className="col pt-2">
+                <div className="row pt-5 pb-5" >
+                    <div className="col-sm-6 col-md-4 col-lg-3 pt-2" data-aos="slide-up">
                         <div className='qualifi_box'>
                             <div className='qualifi-avtar'>
                                 <img className="img-fluid" src="https://zinmatt.com/wp-content/uploads/2024/04/29-819x1024.png" />
@@ -33,7 +43,7 @@ function QualifiedIntern(){
                         
                     </div>
                     
-                    <div className="col pt-2">
+                    <div className="col-sm-6 col-md-4 col-lg-3 pt-2" data-aos="slide-up">
                         <div className='qualifi_box'>
                             <div className='qualifi-avtar'>
                                 <img className="img-fluid" src="https://zinmatt.com/wp-content/uploads/2024/04/13-819x1024.png" />
@@ -44,7 +54,7 @@ function QualifiedIntern(){
                         </div>
                         
                     </div>
-                    <div className="col pt-2">
+                    <div className="col-sm-6 col-md-4 col-lg-3 pt-2" data-aos="slide-up">
                         <div className='qualifi_box'>
                             <div className='qualifi-avtar'>
                                 <img className="img-fluid" src="https://zinmatt.com/wp-content/uploads/2024/04/2-819x1024.png" />
@@ -55,7 +65,7 @@ function QualifiedIntern(){
                         </div>
                         
                     </div>
-                    <div className="col pt-2">
+                    <div className="col-sm-6 col-md-4 col-lg-3 pt-2" data-aos="slide-up">
                         <div className='qualifi_box'>
                             <div className='qualifi-avtar'>
                                 <img className="img-fluid" src="https://zinmatt.com/wp-content/uploads/2024/04/11-819x1024.png" />
@@ -66,7 +76,7 @@ function QualifiedIntern(){
                         </div>
                         
                     </div>
-                    <div className="col pt-2">
+                    <div className="col-sm-6 col-md-4 col-lg-3 pt-2" data-aos="slide-up">
                         <div className='qualifi_box'>
                             <div className='qualifi-avtar'>
                                 <img className="img-fluid" src="https://zinmatt.com/wp-content/uploads/2024/04/28-819x1024.png" />
@@ -78,8 +88,7 @@ function QualifiedIntern(){
                         
                     </div>
 
-                    <div className="w-100"></div>
-                    <div className="col pt-2">
+                    <div className="col-sm-6 col-md-4 col-lg-3 pt-2" data-aos="slide-up">
                         <div className='qualifi_box'>
                             <div className='qualifi-avtar'>
                                 <img className="img-fluid" src="https://zinmatt.com/wp-content/uploads/2024/04/9-819x1024.png" />
@@ -90,7 +99,7 @@ function QualifiedIntern(){
                         </div>
                         
                     </div>
-                    <div className="col pt-2">
+                    <div className="col-sm-6 col-md-4 col-lg-3 pt-2" data-aos="slide-up">
                         <div className='qualifi_box'>
                             <div className='qualifi-avtar'>
                                 <img className="img-fluid" src="https://zinmatt.com/wp-content/uploads/2024/04/3-819x1024.png" />
@@ -101,7 +110,7 @@ function QualifiedIntern(){
                         </div>
                         
                     </div>
-                    <div className="col pt-2">
+                    <div className="col-sm-6 col-md-4 col-lg-3 pt-2" data-aos="slide-up">
                         <div className='qualifi_box'>
                             <div className='qualifi-avtar'>
                                 <img className="img-fluid" src="https://zinmatt.com/wp-content/uploads/2024/04/24-819x1024.png" />
@@ -112,7 +121,7 @@ function QualifiedIntern(){
                         </div>
                         
                     </div>
-                    <div className="col pt-2">
+                    <div className="col-sm-6 col-md-4 col-lg-3 pt-2" data-aos="slide-up">
                         <div className='qualifi_box'>
                             <div className='qualifi-avtar'>
                                 <img className="img-fluid" src="https://zinmatt.com/wp-content/uploads/2024/04/20-819x1024.png" />
@@ -123,7 +132,7 @@ function QualifiedIntern(){
                         </div>
                         
                     </div>
-                    <div className="col pt-2">
+                    <div className="col-sm-6 col-md-4 col-lg-3 pt-2" data-aos="slide-up">
                         <div className='qualifi_box'>
                             <div className='qualifi-avtar'>
                                 <img className="img-fluid" src="https://zinmatt.com/wp-content/uploads/2024/04/33-819x1024.png" />

@@ -24,3 +24,14 @@
     display: inline;
     margin-right: 10px;
 }
+@media only screen and (max-width:576px){
+    .callbtn.d-flex {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+    .callbtn.d-flex .btn-success{
+        margin: 0;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

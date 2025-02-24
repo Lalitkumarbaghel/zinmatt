@@ -124,3 +124,12 @@
     background: rgb(0 0 0 / 60%);
     z-index: -1;
 }
+@media only screen and (max-width:1199px){
+    .eventjoin {padding: 20px;min-height: 188px;}
+}
+@media only screen and (max-width:576px){
+    .eventBanner2 .ev-head {font-size: 45px;letter-spacing: 2px;}
+    .eventBanner2 .ev-head6 {font-size: 20px;padding: 10px 0;}
+    .eventBanner2 .ev-head2 {font-size: 32px;font-weight: 600;}
+    .eventBanner2 .ev-head2 .orangeclr {font-size: 50px;}
+}

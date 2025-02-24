@@ -1,12 +1,23 @@
 import { Link } from "react-router-dom";
 import "./style.css";
+import AOS from 'aos';
+ import 'aos/dist/aos.css';
+import { useEffect } from "react";
+
 function HomeAbout() {
+  useEffect(()=>{
+    AOS.init({
+      duration:2000,
+      mirror: true,
+      once: true
+    });
+  }, [])
   
     return (
     <section className="container-fuild pt-5">
       <div className="container">
         <div className="row align-items-center justify-content-center">
-          <div className="col-md-4">
+          <div className="col-md-4" data-aos="fade-right">
             <div className="about_img">
               <img
                 src="https://zinmatt.com/wp-content/uploads/2025/01/Untitled-design-10.png"
@@ -14,7 +25,7 @@ function HomeAbout() {
               />
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6" data-aos="fade-left">
             <div className="aboutInfo">
               <h1 className="head_light">About Us</h1>
               <h2 className="head_high">
@@ -32,7 +43,7 @@ function HomeAbout() {
                 <Link className="btn joinBtn" to="/">
                   Join Now
                 </Link>
-                <Link className="btn exploreBtn" to="/">
+                <Link className="btn exploreBtn" to="/courses">
                   Explore Our Courses
                 </Link>
               </div>
@@ -57,7 +68,7 @@ function HomeAbout() {
         </div>
 
         <div className="row pt-3">
-          <div className="col-md-4 mt-4">
+          <div className="col-md-6 col-lg-4  mt-4" data-aos="fade-left">
             <div className="about_cart d-flex">
               <div className="cart_icn">
                 <div className="icnBg">
@@ -73,7 +84,7 @@ function HomeAbout() {
               </div>
             </div>
           </div>
-          <div className="col-md-4 mt-4">
+          <div className="col-md-6 col-lg-4 mt-4" data-aos="fade-right">
             <div className="about_cart d-flex">
               <div className="cart_icn">
                 <div className="icnBg">
@@ -89,7 +100,7 @@ function HomeAbout() {
               </div>
             </div>
           </div>
-          <div className="col-md-4 mt-4">
+          <div className="col-md-6 col-lg-4 mt-4" data-aos="fade-up">
             <div className="about_cart d-flex">
               <div className="cart_icn">
                 <div className="icnBg">
@@ -105,7 +116,7 @@ function HomeAbout() {
               </div>
             </div>
           </div>
-          <div className="col-md-4 mt-4">
+          <div className="col-md-6 col-lg-4 mt-4" data-aos="fade-up-right">
             <div className="about_cart d-flex">
               <div className="cart_icn">
                 <div className="icnBg">
@@ -121,7 +132,7 @@ function HomeAbout() {
               </div>
             </div>
           </div>
-          <div className="col-md-4 mt-4">
+          <div className="col-md-6 col-lg-4 mt-4" data-aos="fade-up-left">
             <div className="about_cart d-flex">
               <div className="cart_icn">
                 <div className="icnBg">
@@ -137,7 +148,7 @@ function HomeAbout() {
               </div>
             </div>
           </div>
-          <div className="col-md-4 mt-4">
+          <div className="col-md-6 col-lg-4 mt-4" data-aos="fade-down-right">
             <div className="about_cart d-flex">
               <div className="cart_icn">
                 <div className="icnBg">
@@ -153,7 +164,7 @@ function HomeAbout() {
               </div>
             </div>
           </div>
-          <div className="col-md-4 mt-4">
+          <div className="col-md-6 col-lg-4 mt-4" data-aos="fade-down-left">
             <div className="about_cart d-flex">
               <div className="cart_icn">
                 <div className="icnBg">
@@ -169,7 +180,7 @@ function HomeAbout() {
               </div>
             </div>
           </div>
-          <div className="col-md-4 mt-4">
+          <div className="col-md-6 col-lg-4 mt-4" data-aos="fade-down">
             <div className="about_cart d-flex">
               <div className="cart_icn">
                 <div className="icnBg">
@@ -185,7 +196,7 @@ function HomeAbout() {
               </div>
             </div>
           </div>
-          <div className="col-md-4 mt-4">
+          <div className="col-md-6 col-lg-4 mt-4" data-aos="fade-left">
             <div className="about_cart d-flex">
               <div className="cart_icn">
                 <div className="icnBg">
@@ -203,7 +214,7 @@ function HomeAbout() {
           </div>
         </div>
 
-        <div className="row pt-4 pb-4 align-items-center">
+        <div className="row pt-4 pb-4 align-items-center" data-aos="slide-up">
             <div className="col-md-6">
                 <div className="Lounch">
                     <h2 className="orangeclr heading-title">Why Launch a Career in Digital Marketing</h2>

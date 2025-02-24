@@ -25,3 +25,12 @@
     color: #fc7108;
     text-decoration: underline;
 }
+@media only screen and (max-width:1199px) {
+    .applyBtn {margin-top: 15px;}
+    .sliderbg {padding: 20px 0;}
+}
+@media only screen and (max-width:991px){
+    .slider_cntnt .heading {font-size: 35px;}
+    .slider_cntnt .info {padding-top: 10px;}
+    .slider_cntnt {margin-top: 0px;}
+}

@@ -1,11 +1,21 @@
 import './style.css'
 import Ticket from './Ticket/Ticket';
+import AOS from 'aos'
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 function Event(){
+    useEffect(()=>{
+            AOS.init({
+                        duration:2000,
+                        mirror: true,
+                        once: true
+                    })
+        }, [])
     return (
         <div>
             <section className='container-fluid eventBanner'>
                 <div className='container'>
-                    <div className='row'>
+                    <div className='row' data-aos="slide-up">
                         <div className='col-md-6'></div>
                         <div className='col-md-6'>
                             <div className='eventBanner2'>
@@ -21,7 +31,7 @@ function Event(){
             </section>
             <section className='container-fluid pt-5 pb-5'>
                 <div className='container'>
-                    <div className='row align-items-center'>
+                    <div className='row align-items-center' data-aos="slide-up">
                         <div className='col-md-6'>
                             <div className='addCalendar'>
                                 <a href='#' className='addCalendarBox'><span><i className="fa-solid fa-calendar-plus"></i></span>Add to Calendar</a>
@@ -36,32 +46,32 @@ function Event(){
             </section>
             <section className='container-fluid join_bg'>
                 <div className='container'>
-                    <div className='row'>
+                    <div className='row' data-aos="slide-up">
                         <div className='col-md-12 text-center pb-4'>
                             <h6 className='white-clr'>Join The Event</h6>
                             <h1 className='white-clr'>Why Attend Our <span className='orangeclr'>Event</span></h1>
                         </div>
                     </div>
                     <div className='row'>
-                        <div className="col-md-3">
+                        <div className="col-sm-6 col-lg-3 pt-2">
                             <div className='eventjoin'>
                                 <img className='img' src='https://zinmatt.com/wp-content/uploads/2024/10/1-1.png' />
                                 <h5 className='evt-txt'>Expert Insights</h5>
                             </div>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-sm-6 col-lg-3 pt-2">
                         <div className='eventjoin'>
                                 <img className='img' src='https://zinmatt.com/wp-content/uploads/2024/10/2-1.png' />
                                 <h5 className='evt-txt'>Networking Opportunities</h5>
                             </div>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-sm-6 col-lg-3 pt-2">
                         <div  className='eventjoin'>
                                 <img className='img' src='https://zinmatt.com/wp-content/uploads/2024/10/3-1.png' />
                                 <h5 className='evt-txt'>Potential Clients</h5>
                             </div>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-sm-6 col-lg-3 pt-2">
                         <div className='eventjoin'>
                                 <img className='img' src='https://zinmatt.com/wp-content/uploads/2024/10/4-1.png' />
                                 <h5 className='evt-txt'>Great Speakers</h5>
@@ -72,7 +82,7 @@ function Event(){
             </section>
             <section className='container-fluid pt-5 pb-5'>
                 <div className='container'>
-                    <div className='row'>
+                    <div className='row' >
                         <div className='col-md-12'>
                             <h1 className='text-center'>Our Upcoming Event</h1>
                         </div>
@@ -84,51 +94,51 @@ function Event(){
                     </div>
                 </div>
             </section>
-            <Ticket/>
+            <Ticket data-aos="slide-up"/>
             <section className='container-fluid pt-3 pb-5'>
                 <div className='container'>
-                    <div className='row'>
+                    <div className='row' data-aos="slide-up">
                         <div className='col-md-12 pb-2'>
                             <h1 className='black-text text-center'>Snapshots from <span className='orangeclr'>Previous Events</span></h1>
                         </div>
                     </div>
-                    <div className='row'>
-                        <div className='col-md-3 pt-3'>
+                    <div className='row' data-aos="slide-up">
+                        <div className='col-sm-6 col-md-3 pt-3'>
                             <div className='eventGallery'>
                                 <img src='https://zinmatt.com/wp-content/uploads/2024/04/18-scaled.jpg' className='img-fluid' />
                             </div>
                         </div>
-                        <div className='col-md-3 pt-3'>
+                        <div className='col-sm-6 col-md-3 pt-3'>
                             <div className='eventGallery'>
                                 <img src='https://zinmatt.com/wp-content/uploads/2024/04/18-scaled.jpg' className='img-fluid' />
                             </div>
                         </div>
-                        <div className='col-md-3 pt-3'>
+                        <div className='col-sm-6 col-md-3 pt-3'>
                             <div className='eventGallery'>
                                 <img src='https://zinmatt.com/wp-content/uploads/2024/04/18-scaled.jpg' className='img-fluid' />
                             </div>
                         </div>
-                        <div className='col-md-3 pt-3'>
+                        <div className='col-sm-6 col-md-3 pt-3'>
                             <div className='eventGallery'>
                                 <img src='https://zinmatt.com/wp-content/uploads/2024/04/18-scaled.jpg' className='img-fluid' />
                             </div>
                         </div>
-                        <div className='col-md-3 pt-3'>
+                        <div className='col-sm-6 col-md-3 pt-3'>
                             <div className='eventGallery'>
                                 <img src='https://zinmatt.com/wp-content/uploads/2024/04/18-scaled.jpg' className='img-fluid' />
                             </div>
                         </div>
-                        <div className='col-md-3 pt-3'>
+                        <div className='col-sm-6 col-md-3 pt-3'>
                             <div className='eventGallery'>
                                 <img src='https://zinmatt.com/wp-content/uploads/2024/04/18-scaled.jpg' className='img-fluid' />
                             </div>
                         </div>
-                        <div className='col-md-3 pt-3'>
+                        <div className='col-sm-6 col-md-3 pt-3'>
                             <div className='eventGallery'>
                                 <img src='https://zinmatt.com/wp-content/uploads/2024/04/18-scaled.jpg' className='img-fluid' />
                             </div>
                         </div>
-                        <div className='col-md-3 pt-3'>
+                        <div className='col-sm-6 col-md-3 pt-3'>
                             <div className='eventGallery'>
                                 <img src='https://zinmatt.com/wp-content/uploads/2024/04/18-scaled.jpg' className='img-fluid' />
                             </div>

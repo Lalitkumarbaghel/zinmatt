@@ -10,17 +10,17 @@ function LiveClassReview(){
                     <div className='col-md-12'>
                         <h1>Live Class Review</h1>
                     </div>
-                    <div className='col-md-6'>
-                        <ReactPlayer className="videoPlay" controls={true} width="100%" url='https://player.vimeo.com/video/941505213?h=bd43607c5e' />
+                    <div className='col-md-6 pt-2'>
+                        <ReactPlayer className="videoPlay2" controls={true} width="100%" url='https://player.vimeo.com/video/941505213?h=bd43607c5e' />
                     </div>
-                    <div className='col-md-6'>
-                        <ReactPlayer className="videoPlay" controls={true} width="100%" url='https://player.vimeo.com/video/941505213?h=bd43607c5e' />
+                    <div className='col-md-6 pt-2'>
+                        <ReactPlayer className="videoPlay2" controls={true} width="100%" url='https://player.vimeo.com/video/941505213?h=bd43607c5e' />
                     </div>
-                    <div className='col-md-6'>
-                        <ReactPlayer className="videoPlay" controls={true} width="100%" url='https://player.vimeo.com/video/941505213?h=bd43607c5e' />
+                    <div className='col-md-6 pt-2'>
+                        <ReactPlayer className="videoPlay2" controls={true} width="100%" url='https://player.vimeo.com/video/941505213?h=bd43607c5e' />
                     </div>
-                    <div className='col-md-6'>
-                        <ReactPlayer className="videoPlay" controls={true} width="100%" url='https://player.vimeo.com/video/941505213?h=bd43607c5e' />
+                    <div className='col-md-6 pt-2'>
+                        <ReactPlayer className="videoPlay2" controls={true} width="100%" url='https://player.vimeo.com/video/941505213?h=bd43607c5e' />
                     </div>
                 </div>
             </div>

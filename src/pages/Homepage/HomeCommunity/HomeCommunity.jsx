@@ -1,10 +1,20 @@
 import './style.css'
 import CommunityImg from '../../../assets/images/communit.png'
+import AOS from 'aos'
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 function HomeCommunity(){
+    useEffect(()=>{
+        AOS.init({
+                    duration:2000,
+                    mirror: true,
+                    once: true
+                })
+    }, [])
     return(
         <section className='container-fluid community_bg mt-5'>
             <div className='container'>
-                <div className='row justify-content-center align-items-center'>
+                <div className='row justify-content-center align-items-center' data-aos="slide-up">
                     <div className='col-md-6'>
                         <img src={CommunityImg} className='img-fluid' />
                     </div>

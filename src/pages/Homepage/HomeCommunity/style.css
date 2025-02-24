@@ -30,3 +30,10 @@
     -moz-transform: translate(-200px, 0px);
     -o-transform: translate(-200px, 0px);
 }
+
+@media only screen and (max-width:767px){
+    .darkbg .row .col-md-3:nth-last-child(3) .zitmattNumber {border-right: 0;}
+}
+@media only screen and (max-width:767px){
+    .darkbg .row .col-md-3 .zitmattNumber {border-right: 0;}
+}

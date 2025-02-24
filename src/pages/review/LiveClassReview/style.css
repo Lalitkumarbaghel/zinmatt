@@ -1,0 +1,9 @@
+@media only screen and (max-width:1199px){
+    .videoPlay2{height: 250px!important;}
+}
+@media only screen and (max-width:991px){
+    .videoPlay2{height: 200px!important;}
+}
+@media only screen and (max-width:576px){
+    .videoPlay2{height: 170px!important;}
+}

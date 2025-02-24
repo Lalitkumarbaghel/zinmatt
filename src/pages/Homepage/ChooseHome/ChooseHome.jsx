@@ -1,19 +1,29 @@
 import './style.css'
-
+import LeanGrowth from '../../../assets/images/logoicn.png'
+import AOS from 'aos';
+ import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 function ChooseHome(){
+    useEffect(()=>{
+            AOS.init({
+                  duration:2000,
+                  mirror: true,
+                  once: true
+                });
+    }, [])
     return(
         <section className='container-fluid chooseSection'>
         <div className="container pt-4 pb-5">
             <div className='row'>
                 <div className='col-md-12'>
                     <div className='choose_zimatt_box'>
-                        <img src='https://zinmatt.com/wp-content/uploads/2024/03/cropped-Red-Purple-Modern-Minimalist-Initial-AS-Letter-Logo.png' style={{width:"80px", display:"block", margin:"0 auto"}}/>
+                        <img src={LeanGrowth} style={{width:"75px", display:"block", margin:"0 auto"}}/>
                         <h1 className="text-center head_high pb-4">Why Choose <span className='orangeclr'>Learn Growth</span>?</h1>
                     </div>
                 </div>
             </div>
     <div className="row row-flex">
-        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4" data-aos="slide-up">
             <div className="price-table">
                 <div className='choose_head'>
                     <div className='icn'>
@@ -38,7 +48,7 @@ function ChooseHome(){
                 </div>
             </div>
         </div>
-        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4" data-aos="slide-up">
         <div className="price-table">
                 <div className='choose_head'>
                     <div className='icn other'>
@@ -67,13 +77,13 @@ function ChooseHome(){
             
             
         </div>
-        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4" data-aos="slide-up">
             
             
         <div className="price-table">
                 <div className='choose_head'>
                 <div className='icn other'>
-                    <img className='img' src='https://zinmatt.com/wp-content/uploads/2024/03/cropped-Red-Purple-Modern-Minimalist-Initial-AS-Letter-Logo.png' />
+                    <img className='img' src={LeanGrowth} />
                     </div>
                     <span className='txt youtube'>Learn Growth</span>
                     

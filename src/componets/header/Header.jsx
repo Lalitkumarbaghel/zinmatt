@@ -1,10 +1,24 @@
 import { Link } from 'react-router-dom';
 import Logo from '../../assets/images/logo.png'
+import { useEffect } from 'react';
 import './style.css'
 function Header(){
+  useEffect(() => {
+    window.addEventListener('scroll', isSticky);
+    return () => {
+        window.removeEventListener('scroll', isSticky);
+    };
+});
+
+       
+       const isSticky = (e) => {
+            const header = document.querySelector('.header-section');
+            const scrollTop = window.scrollY;
+            scrollTop >= 150 ? header.classList.add('is-sticky') : header.classList.remove('is-sticky');
+        };
     return(
         <div>
-            <nav className="navbar navbar-expand-lg navbar_box">
+            <nav className="navbar navbar-expand-lg navbar_box header-section">
   <div className="container">
     <Link className="navbar-brand" to="/">
         <img  style={{width:'190px'}} src={Logo} />

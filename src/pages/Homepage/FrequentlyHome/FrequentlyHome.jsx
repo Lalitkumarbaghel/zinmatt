@@ -66,7 +66,7 @@ These courses are structured to deliver comprehensive insights and practical ski
                         </div>
 
                     </div>
-                    <div className="col-md-6 mt-5">
+                    <div className="col-md-6 mt-5 frequency_mar">
                         
 
                     <div className="accordion" id="accordionExample2">

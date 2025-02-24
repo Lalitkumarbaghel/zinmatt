@@ -183,3 +183,11 @@
     position: absolute;
     z-index: -1;
 }
+
+@media only screen and (max-width:991px){
+    .price-table.sliverPass .choose_list.ticket_box .choose_list2, .price-table.goldpass .choose_list.ticket_box .choose_list2, .price-table.diamaondPass .choose_list.ticket_box .choose_list2{padding: 10px;}
+}
+@media only screen and (max-width:767px){
+    .price-table.sliverPass, .price-table.goldpass{min-height: 725px;}
+    .price-table.diamaondPass{min-height: 890px;}
+}

@@ -1,5 +1,8 @@
 import './style.css'
 import Slider from 'react-slick';
+import AOS from 'aos';
+ import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 function ReviewBanner(){
     var settings = {
         loop:true,
@@ -12,10 +15,17 @@ function ReviewBanner(){
         slidesToShow: 1,
         slidesToScroll: 1
       };
+      useEffect(()=>{
+                  AOS.init({
+                        duration:2000,
+                        mirror: true,
+                        once: true
+                      });
+          }, []);
     return(
         <section className='container-fluid lightBg'>
             <div className='container'>
-                <div className='row align-items-center'>
+                <div className='row align-items-center' data-aos="slide-up">
                     <div className='col-md-6'>
                         <div className='reviewBannertxt'>
                             <h1 className='headBn'><span className='orangeclr'>We are Best</span> In Digital Industry</h1>

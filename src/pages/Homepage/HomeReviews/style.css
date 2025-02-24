@@ -101,3 +101,8 @@
     background: #fff;
     color: #fc7108;
 }
+@media only screen and (max-width:767px){
+    .reviews_card .slick-arrow.slick-prev::before, .reviews_card .slick-arrow.slick-next::before {font-size: 17px!important;}
+    .reviews_card .slick-arrow.slick-prev{width: 30px!important;height: 30px!important;transform: translate(15px,0)!important;-webkit-transform: translate(15px,0)!important;-moz-transform: translate(15px,0)!important;-o-transform: translate(15px,0)!important;}
+    .reviews_card .slick-arrow.slick-next{width: 30px!important;height: 30px!important;transform: translate(-15px,0);-webkit-transform: translate(-15px,0);-moz-transform: translate(-15px,0);-o-transform: translate(-15px,0);}
+}

@@ -1,10 +1,20 @@
 import './style.css'
+import AOS from 'aos';
+ import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 function ContactUs(){
+    useEffect(()=>{
+                    AOS.init({
+                          duration:2000,
+                          mirror: true,
+                          once: true
+                        });
+            }, [])
     return(
         <div>
             <section className='container-fluid contactBanner light-ornage-bg'>
                 <div className='container'>
-                    <div className='row align-items-center justify-content-center'>
+                    <div className='row align-items-center justify-content-center' data-aos="slide-up">
                         <div className='col-md-5'>
                             <img src='https://zinmatt.com/wp-content/uploads/2024/03/129-1024x1024.png' className='img-fluid' />
                         </div>
@@ -23,13 +33,13 @@ function ContactUs(){
             </section>
             <section className='containerfluid pt-5 pb-5'>
                 <div className='container'>
-                    <div className='row pb-4'>
+                    <div className='row pb-4' data-aos="slide-up">
                         <div className='col-md-12'>
                             <p>Contact us</p>
                             <h1 className='orangeclr'>Can’t find what you’re looking for?</h1>
                         </div>
                     </div>
-                    <div className='row '>
+                    <div className='row' data-aos="slide-up">
                         <div className="col-md-4 pt-2">
                             <div className='contactCard'>
                                 <i className="fa-solid fa-life-ring icn"></i>
@@ -60,12 +70,12 @@ function ContactUs(){
 
             <section className='containerfluid pt-5 pb-5'>
                 <div className='container'>
-                    <div className='row pb-4'>
+                    <div className='row pb-4' data-aos="slide-up">
                         <div className='col-md-12'>
                             <h1 className='orangeclr'>Get in touch</h1>
                         </div>
                     </div>
-                    <div className='row '>
+                    <div className='row' data-aos="slide-up">
                         <div className="col-md-5 pt-2">
                             <div className='contactCard'>
                                 <i className="fa-solid fa-location-dot icn"></i>
@@ -87,7 +97,7 @@ function ContactUs(){
                         
                     </div>
 
-                    <div className='row'>
+                    <div className='row' data-aos="slide-up">
 
                     <div className="col-md-4 pt-4">
                             <div className='contactCard'>

@@ -1,17 +1,26 @@
 import './style.css'
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function SyllabusCourses(){
+    useEffect(()=>{
+                AOS.init({
+                      duration:2000,
+                      mirror: true,
+                      once: true
+                    });
+        }, []);
+
     return(
         <section className='container-fluid pt-5 pb-5'>
             <div className='container'>
-                <div className='row'>
-                    <div className='row'>
+                <div className='row' >
                         <div className='col-md-12 pb-3'>
                             <h1>Our Syllabus</h1>
                         </div>
-                    </div>
-                    <div className='col-md-3 pt-2'>
-                    <div className="card" >
+                    <div className='col-md-6 col-lg-4 col-xl-3 pt-2' data-aos="zoom-in">
+                    <div className="card syllabuseCard" >
                             <img src="https://zinmatt.com/wp-content/uploads/2024/10/3-1536x1044.png" className="card-img-top" alt="..." />
                             <div className='d-flex align-items-center justify-content-between px-3 mt-3'>
                                 <p className='bordertxt'>20 Days</p>
@@ -31,8 +40,8 @@ function SyllabusCourses(){
                             </div>
                             </div>
                     </div>
-                    <div className='col-md-3 pt-2'>
-                    <div className="card" >
+                    <div className='col-md-6 col-lg-4 col-xl-3 pt-2' data-aos="zoom-in-up">
+                    <div className="card syllabuseCard" >
                             <img src="https://zinmatt.com/wp-content/uploads/2024/10/2-1536x1044.png" className="card-img-top" alt="..." />
                             <div className='d-flex align-items-center justify-content-between px-3 mt-3'>
                                 <p className='bordertxt'>5 Days</p>
@@ -52,8 +61,8 @@ function SyllabusCourses(){
                             </div>
                             </div>
                     </div>
-                    <div className='col-md-3 pt-2'>
-                    <div className="card" >
+                    <div className='col-md-6 col-lg-4 col-xl-3 pt-2' data-aos="zoom-in-down">
+                    <div className="card syllabuseCard" >
                             <img src="https://zinmatt.com/wp-content/uploads/2024/10/1-1536x1044.png" className="card-img-top" alt="..." />
                             <div className='d-flex align-items-center justify-content-between px-3 mt-3'>
                                 <p className='bordertxt'>15 Days</p>
@@ -73,8 +82,8 @@ function SyllabusCourses(){
                             </div>
                             </div>
                     </div>
-                    <div className='col-md-3 pt-2'>
-                    <div className="card" >
+                    <div className='col-md-6 col-lg-4 col-xl-3 pt-2' data-aos="zoom-in-left">
+                    <div className="card syllabuseCard">
                             <img src="https://zinmatt.com/wp-content/uploads/2024/10/Create-Manage-Optimize-1-1536x1044.png" className="card-img-top" alt="..." />
                             <div className='d-flex align-items-center justify-content-between px-3 mt-3'>
                                 <p className='bordertxt'>5 Days</p>
@@ -94,8 +103,8 @@ function SyllabusCourses(){
                             </div>
                             </div>
                     </div>
-                    <div className='col-md-3 pt-2'>
-                    <div className="card" >
+                    <div className='col-md-6 col-lg-4 col-xl-3 pt-2' data-aos="zoom-in-right">
+                    <div className="card syllabuseCard">
                             <img src="https://zinmatt.com/wp-content/uploads/2024/10/8-1536x1044.png" className="card-img-top" alt="..." />
                             <div className='d-flex align-items-center justify-content-between px-3 mt-3'>
                                 <p className='bordertxt'>5 Days</p>
@@ -115,8 +124,8 @@ function SyllabusCourses(){
                             </div>
                             </div>
                     </div>
-                    <div className='col-md-3 pt-2'>
-                    <div className="card" >
+                    <div className='col-md-6 col-lg-4 col-xl-3 pt-2' data-aos="zoom-out">
+                    <div className="card syllabuseCard">
                             <img src="https://zinmatt.com/wp-content/uploads/2024/10/4-1536x1044.png" className="card-img-top" alt="..." />
                             <div className='d-flex align-items-center justify-content-between px-3 mt-3'>
                                 <p className='bordertxt'>25 Days</p>
@@ -136,8 +145,8 @@ function SyllabusCourses(){
                             </div>
                             </div>
                     </div>
-                    <div className='col-md-3 pt-2'>
-                    <div className="card" >
+                    <div className='col-md-6 col-lg-4 col-xl-3 pt-2' data-aos="zoom-out-up">
+                    <div className="card syllabuseCard">
                             <img src="https://zinmatt.com/wp-content/uploads/2024/10/5-1536x1044.png" className="card-img-top" alt="..." />
                             <div className='d-flex align-items-center justify-content-between px-3 mt-3'>
                                 <p className='bordertxt'>15 Days</p>
@@ -157,8 +166,8 @@ function SyllabusCourses(){
                             </div>
                             </div>
                     </div>
-                    <div className='col-md-3 pt-2'>
-                    <div className="card" >
+                    <div className='col-md-6 col-lg-4 col-xl-3 pt-2' data-aos="zoom-out-down">
+                    <div className="card syllabuseCard">
                             <img src="https://zinmatt.com/wp-content/uploads/2024/10/Create-Manage-Optimize-3-1536x1044.png" className="card-img-top" alt="..." />
                             <div className='d-flex align-items-center justify-content-between px-3 mt-3'>
                                 <p className='bordertxt'>3 Days</p>
@@ -182,7 +191,7 @@ function SyllabusCourses(){
                 </div>
             </div>
         </section>
-    )
+    )           
 }
 
 export default SyllabusCourses;
